@@ -93,13 +93,13 @@
 					u1 = "Fahrenheit";
 			   }else if(u == "K"){
 					t1 =  t + 273.15;
-					u1 = "Réaumur";
+					u1 = "Kelvin";
 			   }else if(u == "R"){
 					t1 = t * (4/5);
-					u1 = "Kelvin";
+					u1 = "Réaumur";
 			   }
 			   
-			   alert("Temperature is "+t1+" in "+u1);
+			   document.getElementById("result").innerHTML = "Tempurature is "+t1+" in "+ u1;
 			});
 		});
 	</script>
